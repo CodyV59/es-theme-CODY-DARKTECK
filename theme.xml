@@ -1,0 +1,16 @@
+<!--
+theme name:     	CODY DARKTECK
+creator:		CODYV59
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+   
+    <subset name="bottombar" displayName="${bottombarSubsetname}">
+        <include name="standard mod" displayName="${red}">./base.xml</include>
+    </subset>
+
+</theme>
