@@ -16,11 +16,11 @@
 	</view>	
 	
   	<view name="detailed, video">
-                <image name="system" extra="true">
-                   <origin>0.5 0.5</origin>
-                   <pos>0.75 0.138</pos>
-                   <maxSize>0.4 0.14</maxSize>
-                   <path>./system.png</path>
+                <image name="logo" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <maxSize>1 1</maxSize>
+                   <path>./logo.png</path>
                    <zIndex>3</zIndex>            
                 </image>
 	</view>	
@@ -29,7 +29,7 @@
                    <origin>0.5 0</origin>
                    <pos>0.5 0.02</pos>
                    <maxSize>1 .12</maxSize>
-                   <path>./system.png</path>
+                   <path>./logo.png</path>
                    <zIndex>3</zIndex>            
                 </image>
 	</view>		
