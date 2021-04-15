@@ -1,0 +1,35 @@
+<!--
+theme name:     NES BOX Theme
+creator:		Travis Wilson (Super Retropie and Retro Gaming)
+facebook:		www.facebook.com/groups/superretropie
+twitter:		www.twitter.com/superretropie
+email:			superretropieretrogaming@gmail.com
+version         1.9
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+ 
+   <view name="system">
+      <helpsystem name="help">
+         <fontSize>0.044</fontSize>     
+         <pos>0.04 0.948</pos>      
+      </helpsystem>
+   </view>  
+
+   <view name="detailed,video,basic">
+      <helpsystem name="help">
+         <fontSize>0.038</fontSize>     
+         <pos>0.0001 0.948</pos>      
+      </helpsystem>
+   </view>  
+
+   <view name="basic,detailed,video">
+      <textlist name="gamelist">      
+         <fontSize>0.045</fontSize>                        
+      </textlist>
+   </view> 
+
+  
+</theme>

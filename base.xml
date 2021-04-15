@@ -21,6 +21,17 @@ version         1.0
         <color>00000000</color>
         <maxLogoCount>1</maxLogoCount>       
       </carousel>
+
+      <video name="fog" extra="true">
+         <origin>0.0 0.0</origin>
+         <maxSize>1.0 1.0</maxSize>
+         <pos>0 0</pos>
+         <size>1 1</size>                 
+         <path>./_inc/images/fog.mp4</path>
+         <zIndex>2</zIndex> 
+         <delay>0.8</delay>        
+      </video> 
+
       <image name="background" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -28,13 +39,7 @@ version         1.0
          <zIndex>2</zIndex>                 
          <path>./_inc/images/red/background.png</path>
       </image>  
-      <image name="background_bottom" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>4</zIndex>                 
-         <path>./_inc/images/red/background_bottom.png</path>
-      </image>                   
+                   
       <text name="systemInfo">     
          <pos>-0.01 0.775</pos>
          <backgroundColor>00000000</backgroundColor>
@@ -43,23 +48,28 @@ version         1.0
 	     <fontSize>0.05</fontSize>
 	     <alignment>right</alignment>
          <zIndex>5</zIndex>	     
-      </text>            
+      </text>      
+    <helpsystem name="help">
+      <textColor>ffae00</textColor>
+      <iconColor>ffffff</iconColor>
+    </helpsystem>
+      
    </view>
 </feature>
 
-   <view name="system">
-      <helpsystem name="help">
-         <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>     
-         <textColor>101010</textColor>
-         <iconColor>101010</iconColor>
-      </helpsystem>
-   </view>  
-
    <view name="detailed,video,basic">
+      <video name="fog" extra="true">
+         <origin>0.0 0.0</origin>
+         <maxSize>1.0 1.0</maxSize>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>2</zIndex>                 
+         <path>./_inc/images/fog.mp4</path>         
+      </video>
       <helpsystem name="help">
          <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>   
-         <textColor>101010</textColor>
-         <iconColor>101010</iconColor>
+      <textColor>ffae00</textColor>
+      <iconColor>ffffff</iconColor>
       </helpsystem>
    </view>  
 
@@ -72,22 +82,32 @@ version         1.0
          <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/sounds/Move.wav</scrollSound>
-         <zIndex>4</zIndex>                          
+         <zIndex>6</zIndex>                          
       </textlist>
    </view> 
    
-   <view name="detailed,video">
+   <view name="detailed">
       <textlist name="gamelist">                          
          <pos>0.003 0.35</pos>
-         <size>1.0 0.4</size>
+         <size>0.55 0.4</size>
          <alignment>left</alignment>                       
       </textlist>
+
    </view>
+   <view name="video">
+      <textlist name="gamelist">                          
+         <pos>0.003 0.35</pos>
+         <size>0.7 0.4</size>
+         <alignment>left</alignment>                       
+      </textlist>
+
+   </view>
+
    
    <view name="basic">
       <textlist name="gamelist">                          
-         <pos>0.2 0.19</pos>
-         <size>.6 0.74</size>
+         <pos>0.315 0.05</pos>
+         <size>.65 .85</size>
          <alignment>center</alignment>                       
       </textlist>
    </view>
@@ -98,8 +118,17 @@ version         1.0
          <pos>0 0</pos>
          <size>1 1</size>        
          <path>./_inc/images/red/background_basic.png</path>
-         <zIndex>1</zIndex>          
-      </image>                
+         <zIndex>2</zIndex>          
+      </image>            
+      <video name="fog" extra="true">
+         <origin>0.0 0.0</origin>
+         <maxSize>1.0 1.0</maxSize>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>1</zIndex>                 
+         <path>./_inc/images/fog.mp4</path>         
+      </video> 
+
    </view> 
     
    <view name="detailed,video">
@@ -115,14 +144,14 @@ version         1.0
          <pos>0 0</pos>
          <size>1 1</size>        
          <path>./_inc/images/red/background_video.png</path>
-         <zIndex>3</zIndex>         
+         <zIndex>5</zIndex>         
       </image> 
       <image name="scanline" extra="true">
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
          <path>./_inc/images/red/scanline.png</path>
-         <zIndex>2</zIndex>         
+         <zIndex>4</zIndex>         
       </image>  
         <image name="md_marquee">
             <pos>0.50 0.14</pos>
@@ -135,9 +164,9 @@ version         1.0
    <view name="detailed">
       <image name="md_image">
          <origin>0.5 0.5</origin>
-         <pos>0.75 0.66</pos>
-         <maxSize>0.45 0.45</maxSize>
-         <zIndex>2</zIndex>         
+         <pos>0.680 0.595</pos>
+         <maxSize>0.6 0.6</maxSize>
+         <zIndex>6</zIndex>         
       </image>      
    </view>
 
@@ -147,7 +176,7 @@ version         1.0
          <pos>0.43 0</pos>
          <maxSize>1.3 1.0</maxSize>
          <delay>1</delay>
-         <zIndex>2</zIndex>         
+         <zIndex>3</zIndex>         
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <showSnapshotDelay>true</showSnapshotDelay>
       </video>             
@@ -157,9 +186,9 @@ version         1.0
    
       <rating name="md_rating">
          <origin>0.5 0.5</origin>       
-         <pos>0.42 0.93</pos>
+         <pos>0.32 0.92</pos>
          <size>0.06 0.06</size>
-         <zIndex>4</zIndex>
+         <zIndex>7</zIndex>
          <filledPath>./_inc/images/star_full.png</filledPath>
          <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
       </rating>

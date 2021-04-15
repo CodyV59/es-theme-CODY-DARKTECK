@@ -26,11 +26,13 @@
 	</view>	
   	<view name="basic">
                 <image name="system" extra="true">
-                   <origin>0.5 0</origin>
-                   <pos>0.5 0.02</pos>
-                   <maxSize>1 .12</maxSize>
-                   <path>./logo.png</path>
+                   <origin>0 0</origin>
+                   <pos>-0.24 0.125</pos>
+                   <maxSize>.75 1</maxSize>
+                   <path>./system.png</path>
+		   <rotation>-90</rotation>
                    <zIndex>3</zIndex>            
                 </image>
-	</view>		
+
+ 	</view>		
 </theme>
