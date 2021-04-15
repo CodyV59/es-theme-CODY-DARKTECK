@@ -23,7 +23,7 @@
                    <path>./logo.png</path>
                    <zIndex>3</zIndex>            
                 </image>
-                <image name="logo" extra="true">
+                <image name="gbeffect" extra="true">
                    <origin>0 0</origin>
                    <pos>0 0</pos>
                    <maxSize>1 1</maxSize>
