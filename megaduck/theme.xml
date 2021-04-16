@@ -15,7 +15,7 @@
       </image>
 	</view>	
 	
-  	<view name="video">
+  	<view name="detailed, video">
                 <image name="logo" extra="true">
                    <origin>0 0</origin>
                    <pos>0 0</pos>
@@ -23,14 +23,6 @@
                    <path>./logo.png</path>
                    <zIndex>3</zIndex>            
                 </image>
-                <image name="logo" extra="true">
-                   <origin>0 0</origin>
-                   <pos>0 0</pos>
-                   <maxSize>1 1</maxSize>
-                   <path>./gridgb.png</path>
-                   <zIndex>3</zIndex>            
-                </image>
-
 	</view>	
   	<view name="basic">
                 <image name="system" extra="true">
@@ -42,6 +34,5 @@
                    <zIndex>3</zIndex>            
                 </image>
 
- 	</view>	
-	
+ 	</view>		
 </theme>
